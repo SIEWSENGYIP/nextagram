@@ -1,0 +1,11 @@
+<h2>{{ userName }}'s Page</h2>
+
+<div *ngIf=" imgs === null">
+  <img class="loading"  src="../../assets/images/loading.gif">
+</div>
+
+<div class="userPage">
+    <div *ngFor="let img of imgs">
+      <img class="userImg" src= "{{ img }}">
+    </div>
+</div>

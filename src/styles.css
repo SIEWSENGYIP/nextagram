@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+.profileImg {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.profileImg:hover {
+    opacity: 0.5;
+}
+
+.userName {
+    margin: auto;
+    display: block;
+    max-width: 200px;
+    text-align: center;
+    
+  }
+
+.userImg {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.userList {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 100%;
+}
+
+.userPage {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 100%;
+}
+
+.topnav {
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+.loading {
+    height: 300px;
+}
