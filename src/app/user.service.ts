@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core'
 import { HttpClient } from '@angular/common/http'
 
-const usersUrl = 'https://insta.nextacademy.com/api/v1/users'
-const userUrl = 'https://insta.nextacademy.com/api/v1/images?userId='
+const usersUrl = 'https://tranquil-beach-87956.herokuapp.com/api/v1/users'
+const userUrl = 'https://tranquil-beach-87956.herokuapp.com/api/v1/images?userId='
 
 @Injectable({
   providedIn: 'root'
